@@ -3253,15 +3253,15 @@ fieldset:disabled .btn {
 
 .btn-warning {
   --bs-btn-color: #000;
-  --bs-btn-bg: orangered;
-  --bs-btn-border-color: orangered;
+  --bs-btn-bg: #ff6300;
+  --bs-btn-border-color: #ff6300;
   --bs-btn-hover-color: #000;
   --bs-btn-hover-bg: #d35527;
   --bs-btn-hover-border-color: #d35527;
   --bs-btn-focus-shadow-rgb: 217, 164, 6;
   --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #ffcd39;
-  --bs-btn-active-border-color: #ffc720;
+  --bs-btn-active-bg: #ff6300;
+  --bs-btn-active-border-color: #ff6300;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #000;
   --bs-btn-disabled-bg: #ffc107;
@@ -4548,7 +4548,7 @@ fieldset:disabled .btn {
   --bs-card-cap-color: ;
   --bs-card-height: ;
   --bs-card-color: ;
-  --bs-card-bg: var(--bs-body-bg);
+  --bs-card-bg: #f3f3f3;
   --bs-card-img-overlay-padding: 1rem;
   --bs-card-group-margin: 0.75rem;
   position: relative;
@@ -4560,7 +4560,7 @@ fieldset:disabled .btn {
   word-wrap: break-word;
   background-color: var(--bs-card-bg);
   background-clip: border-box;
-  border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+  border: var(--bs-card-border-width) solid #f3f3f3;
   border-radius: var(--bs-card-border-radius);
 }
 .card > hr {
@@ -7192,11 +7192,8 @@ fieldset:disabled .btn {
 }
 
 .text-bg-warning {
-  color: #000 !important;
-  background-color: RGBA(
-    var(--bs-warning-rgb),
-    var(--bs-bg-opacity, 1)
-  ) !important;
+  color: white;
+  background-color: #ff6300;
 }
 
 .text-bg-danger {
@@ -9061,7 +9058,7 @@ fieldset:disabled .btn {
 
 .text-warning {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-warning-rgb), var(--bs-text-opacity)) !important;
+  color: #ff6300;
 }
 
 .text-danger {

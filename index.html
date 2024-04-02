@@ -3,57 +3,165 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- bootstrap -->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./assets/css/bootstrap.css" />
     <title>Bootstrap - Portfolio</title>
   </head>
 
-  <body>
-    <header>
-      <nav class="navbar">
-        <div class="container jusitfy-content-end">
-          <a class="navbar-brand" href="#"> <strong> ARYAN</strong></a>
+  <header>
+    <nav class="navbar">
+      ]
+      <div class="container jusitfy-content-end">
+        <a class="navbar-brand fs-1" href="#"> <strong> ARYAN</strong></a>
 
-          <div class="navbar-nav gap-4 flex-row">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">About</a>
-            <a class="nav-link" href="#">Services</a>
-            <a class="nav-link" href="#">Projects</a>
-            <a class="nav-link" href="#">Testimonials</a>
-            <a class="nav-link" href="#">Contact Us</a>
-            <a class="btn btn-warning text-white" aria-disabled="true">
-              Download CV
-            </a>
+        <div class="navbar-nav gap-4 flex-row">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#">Services</a>
+          <a class="nav-link" href="#">Projects</a>
+          <a class="nav-link" href="#">Testimonials</a>
+          <a class="nav-link" href="#">Contact Us</a>
+          <a class="btn btn-warning text-white" aria-disabled="true">
+            Download CV
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <body>
+    <main>
+      <!-- HERO SECTION -->
+      <div class="hero container d-flex flex-row jusitfy-content-evenly">
+        <div class="row align-items-center" style="height: 90vh">
+          <div class="col-6 content">
+            <p class="mb-0">Hello I am</p>
+            <p class="text-warning mb-0">Aryan Adhikari</p>
+            <h2 class="text-uppercase fs-1 fw-bolder">Website</h2>
+            <h2 class="text-center text-uppercase fs-1 fw-bolder">Developer</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Repudiandae, commodi! Quos quam beatae repellendus non nesciunt
+              harum consequatur nisi voluptatibus quasi ipsum assumenda quaerat
+              praesentium quod, amet ut quidem repellat?
+            </p>
+            <button class="btn btn-warning text-white">HIRE ME</button>
+          </div>
+          <div class="col-6 image">
+            <img src="./assets/img/guy1.png" alt="" height="600" />
           </div>
         </div>
-      </nav>
-      <!-- <nav class="navbar navbar-expand-lg bg-body-white">
-        <div class="container">
-          <div
-            class="collapse navbar-collapse jusitfy-content-end"
-            id="navbarNav"
-          >
-            <a class="navbar-brand-bold" href="#"> <strong> ARYAN</strong></a>
-            <div class="navbar-nav gap-4">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">About</a>
-              <a class="nav-link" href="#">Services</a>
-              <a class="nav-link" href="#">Projects</a>
-              <a class="nav-link" href="#">Testimonial</a>
-              <a class="nav-link" href="#">Contact</a>
-              <a class="btn btn-warning text-white" aria-disabled="true">
-                Download CV
-              </a>
+      </div>
+
+      <!-- ABOUT US SECTION -->
+      <div class="container d-flex flex-row jusitfy-content-evenly">
+        <div class="row align-items-center" style="height: 20vh">
+          <div class="col-6 image">
+            <img src="./assets/img/guy2.png" alt="" height="600" />
+          </div>
+          <div class="col-6">
+            <h1 class="fs-1 fw-bolder">About Me</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+              adipisci architecto quibusdam laboriosam ipsa dolores expedita
+              suscipitipsa d olores expedita suscipit olores expedita suscipit
+              olores expedita suscipit
+            </p>
+            <p class="fw-bolder">UX</p>
+            <div class="progress" role="progressbar">
+              <div class="progress-bar text-bg-warning" style="width: 95%">
+                <!-- 95% -->
+              </div>
+            </div>
+            <p class="fw-bolder mt-3">Website Design</p>
+            <div class="progress" role="progressbar">
+              <div class="progress-bar text-bg-warning" style="width: 90%">
+                <!-- 90% -->
+              </div>
+            </div>
+            <p class="fw-bolder mt-3">App Design</p>
+            <div class="progress" role="progressbar">
+              <div class="progress-bar text-bg-warning" style="width: 93%">
+                <!-- 93% -->
+              </div>
+            </div>
+            <p class="fw-bolder mt-3">Graphic Design</p>
+            <div class="progress" role="progressbar">
+              <div class="progress-bar text-bg-warning" style="width: 88%">
+                <!-- 88% -->
+              </div>
             </div>
           </div>
         </div>
-      </nav> -->
-    </header>
+      </div>
 
-    <!-- javascript files -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
+      <!-- SERVICES SECTION -->
+      <div class="container">
+        <div class="d-flex flex-column align-items-center" style="height: 30vh">
+          <h1 class="fs- fw-bolder">Services</h1>
+          <p style="width: 70%">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Consequatur repellendus corrupti amet consectetur adipisicing elit.
+            Consequatur repellendus corrupti
+          </p>
+          <div class="row">
+            <div class="col-sm-3 mb-3 mb-sm-0">
+              <div class="card">
+                <div class="card-body">
+                  <h3 class="card-title fw-bolder">UI/UX</h3>
+                  <p class="card-text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card">
+                <div class="card-body">
+                  <h3 class="card-title fw-bolder">Web Design</h3>
+                  <p class="card-text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card">
+                <div class="card-body">
+                  <h3 class="card-title fw-bolder">App Design</h3>
+                  <p class="card-text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="45"
+                  height="45"
+                  fill="currentColor"
+                  class="bi bi-brush-fill border rounded p-1 text-bg-warning mt-2 ml-2"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M15.825.12a.5.5 0 0 1 .132.584c-1.53 3.43-4.743 8.17-7.095 10.64a6.1 6.1 0 0 1-2.373 1.534c-.018.227-.06.538-.16.868-.201.659-.667 1.479-1.708 1.74a8.1 8.1 0 0 1-3.078.132 4 4 0 0 1-.562-.135 1.4 1.4 0 0 1-.466-.247.7.7 0 0 1-.204-.288.62.62 0 0 1 .004-.443c.095-.245.316-.38.461-.452.394-.197.625-.453.867-.826.095-.144.184-.297.287-.472l.117-.198c.151-.255.326-.54.546-.848.528-.739 1.201-.925 1.746-.896q.19.012.348.048c.062-.172.142-.38.238-.608.261-.619.658-1.419 1.187-2.069 2.176-2.67 6.18-6.206 9.117-8.104a.5.5 0 0 1 .596.04"
+                  />
+                </svg>
+                <div class="card-body">
+                  <h3 class="card-title fw-bolder">Graphic Design</h3>
+                  <p class="card-text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
     <script src="./js/index.js"></script>
     <script src="assets/js/bootstrap.js"></script>
   </body>
